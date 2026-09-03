@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Termos de Uso e Política de Privacidade — GPD Plantabilidade</title>
+<meta name="description" content="Termos de Uso e Política de Privacidade do aplicativo GPD Plantabilidade, conforme a LGPD (Lei nº 13.709/2018).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #FAF8F2;
+    --ink: #23281F;
+    --green: #1E4D2B;
+    --green-soft: #E4EBE2;
+    --soil: #7A5C3E;
+    --rule: #D8D4C8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Public Sans", -apple-system, sans-serif;
+    font-size: 16.5px;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 22px 80px; }
+
+  /* Cabeçalho */
+  header { padding: 56px 0 0; }
+  .eyebrow {
+    font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
+    font-weight: 700; color: var(--soil);
+  }
+  h1 {
+    font-family: "Zilla Slab", serif;
+    font-size: clamp(30px, 5.5vw, 44px);
+    font-weight: 700; color: var(--green);
+    line-height: 1.12; margin: 10px 0 6px;
+  }
+  .updated { font-size: 14px; color: #5A6052; }
+
+  /* Régua de medição — assinatura visual do app, que mede espaçamento entre sementes */
+  .ruler {
+    margin: 28px 0 40px; height: 18px; position: relative;
+    border-bottom: 2px solid var(--green);
+    background: repeating-linear-gradient(
+      to right,
+      var(--green) 0, var(--green) 1px, transparent 1px, transparent 12px
+    );
+    background-size: 100% 8px;
+    background-position: bottom;
+    background-repeat: repeat-x;
+  }
+  .ruler::before, .ruler::after {
+    content: ""; position: absolute; bottom: -2px; width: 2px; height: 18px;
+    background: var(--green);
+  }
+  .ruler::before { left: 0; }
+  .ruler::after { right: 0; }
+
+  /* Índice */
+  nav.toc {
+    background: var(--green-soft); border-radius: 8px;
+    padding: 22px 26px; margin-bottom: 52px;
+  }
+  nav.toc p {
+    font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
+    font-weight: 700; color: var(--green); margin-bottom: 10px;
+  }
+  nav.toc a {
+    display: block; color: var(--ink); text-decoration: none;
+    padding: 3px 0; font-size: 15.5px;
+  }
+  nav.toc a:hover { color: var(--green); text-decoration: underline; }
+
+  /* Seções */
+  h2 {
+    font-family: "Zilla Slab", serif; font-size: 27px; font-weight: 700;
+    color: var(--green); margin: 60px 0 4px;
+    padding-top: 18px; border-top: 2px solid var(--green);
+  }
+  h3 {
+    font-family: "Zilla Slab", serif; font-size: 19.5px; font-weight: 600;
+    color: var(--ink); margin: 30px 0 8px;
+  }
+  p { margin: 12px 0; }
+  ul { margin: 12px 0 12px 22px; }
+  li { margin: 6px 0; }
+  strong { font-weight: 700; }
+  em { font-style: italic; }
+  a { color: var(--green); }
+  a:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+
+  table {
+    width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 15px;
+  }
+  th, td {
+    text-align: left; padding: 9px 12px; border: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  th { background: var(--green-soft); font-weight: 700; color: var(--green); }
+
+  footer {
+    margin-top: 70px; padding-top: 20px; border-top: 1px solid var(--rule);
+    font-size: 14px; color: #5A6052;
+  }
+
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    nav.toc { padding: 18px 18px; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">GPD Plantabilidade</p>
+  <h1>Termos de Uso e Política de Privacidade</h1>
+  <p class="updated">Última atualização: 3 de setembro de 2026 · Versão 1.0</p>
+  <div class="ruler" aria-hidden="true"></div>
+</header>
+
+<nav class="toc" aria-label="Índice">
+  <p>Índice</p>
+  <a href="#termos">Parte I — Termos de Uso</a>
+  <a href="#privacidade">Parte II — Política de Privacidade (LGPD)</a>
+  <a href="#dados-coletados">Quais dados coletamos</a>
+  <a href="#direitos">Seus direitos como titular de dados</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<!-- ============================================================= -->
+<h2 id="termos">Parte I — Termos de Uso</h2>
+
+<h3>1. Aceitação</h3>
+<p>Estes Termos de Uso regulam a utilização do aplicativo <strong>GPD Plantabilidade</strong> ("Aplicativo"), desenvolvido em coautoria pelo <strong>Grupo de Plantio Direto (GPD)</strong> e pela <strong>SauerTech Inovação e Sistemas Ltda.</strong>, inscrita no CNPJ sob o nº 62.861.103/0001-01, esta última responsável pela disponibilização e operação do Aplicativo ("nós"). Ao instalar ou utilizar o Aplicativo, você declara ter lido, compreendido e aceitado estes Termos e a Política de Privacidade da Parte II. Se não concordar, não utilize o Aplicativo.</p>
+
+<h3>2. O que o Aplicativo faz</h3>
+<p>O GPD Plantabilidade é uma ferramenta gratuita de apoio à avaliação de <strong>plantabilidade</strong> (distribuição de sementes na linha de plantio) e de <strong>distribuição de fertilizante</strong>. A partir das medições inseridas por você, o Aplicativo calcula indicadores como percentual de falhas, duplas e espaçamentos aceitáveis, coeficiente de variação (CV%) e dose real de fertilizante aplicada.</p>
+
+<h3>3. Caráter informativo dos resultados</h3>
+<p>Os resultados apresentados pelo Aplicativo são <strong>estimativas calculadas exclusivamente a partir dos dados que você insere</strong>. Eles têm caráter informativo e de apoio à decisão, e <strong>não substituem a avaliação de um engenheiro agrônomo ou outro profissional habilitado</strong>. Decisões de manejo, regulagem de máquinas, compra de insumos ou quaisquer outras decisões técnicas e comerciais tomadas com base no Aplicativo são de responsabilidade exclusiva do usuário. Não nos responsabilizamos por perdas produtivas, danos ou prejuízos decorrentes do uso dos resultados.</p>
+
+<h3>4. Gratuidade e patrocínio</h3>
+<p>O Aplicativo é gratuito. Sua manutenção pode ser viabilizada por patrocinadores, cuja marca pode ser exibida em áreas do Aplicativo (por exemplo, um banner na tela inicial). Ao tocar no banner, você poderá ser direcionado ao site do patrocinador em seu navegador, passando a valer as políticas de privacidade e os termos do site visitado.</p>
+
+<h3>5. Uso adequado</h3>
+<p>Você se compromete a utilizar o Aplicativo de boa-fé e a não: (a) inserir dados falsos com o objetivo de distorcer estatísticas do serviço; (b) tentar acessar, sobrecarregar ou comprometer nossos servidores e sistemas; (c) realizar engenharia reversa, cópia ou redistribuição não autorizada do Aplicativo.</p>
+
+<h3>6. Propriedade intelectual</h3>
+<p>O Aplicativo, sua marca, layout, código, metodologia de cálculo e conteúdos são de titularidade conjunta do <strong>Grupo de Plantio Direto (GPD)</strong> e da <strong>SauerTech Inovação e Sistemas Ltda.</strong>, ou a eles licenciados. Os dados que você insere permanecem seus; você nos concede licença de uso desses dados nos termos da Política de Privacidade abaixo.</p>
+
+<h3>7. Disponibilidade e alterações</h3>
+<p>O Aplicativo funciona também sem conexão com a internet ("offline first"); a sincronização com nossos servidores ocorre quando há conexão disponível. Podemos alterar, suspender ou descontinuar funcionalidades a qualquer momento, bem como atualizar estes Termos. Alterações relevantes serão comunicadas pelo próprio Aplicativo ou nesta página, valendo a data de atualização indicada no topo.</p>
+
+<h3>8. Legislação aplicável</h3>
+<p>Estes Termos são regidos pelas leis da República Federativa do Brasil. Fica eleito o foro da comarca de São Paulo/SP para dirimir eventuais controvérsias.</p>
+
+<!-- ============================================================= -->
+<h2 id="privacidade">Parte II — Política de Privacidade (LGPD)</h2>
+
+<h3>9. Controlador dos dados</h3>
+<p>O controlador dos dados pessoais tratados pelo Aplicativo, nos termos da Lei Geral de Proteção de Dados — LGPD (Lei nº 13.709/2018), é:</p>
+<p><strong>SauerTech Inovação e Sistemas Ltda.</strong><br>
+CNPJ 62.861.103/0001-01<br>
+Rua Andaquara, 343 — Vila Anhanguera — São Paulo/SP — CEP 04.673-110<br>
+Contato do responsável pelo tratamento de dados: <a href="mailto:contato.gpdacademy@gmail.com">contato.gpdacademy@gmail.com</a></p>
+<p>Embora o Aplicativo seja desenvolvido em coautoria com o Grupo de Plantio Direto (GPD), a operação dos servidores e o tratamento dos dados pessoais são realizados exclusivamente pela SauerTech Inovação e Sistemas Ltda., a quem você deve dirigir qualquer solicitação relativa aos seus dados.</p>
+
+<h3>10. Identificação anônima</h3>
+<p>O Aplicativo <strong>não exige cadastro com nome, CPF ou senha</strong>. Ao ser instalado, ele gera um <strong>identificador aleatório e anônimo (UUID)</strong> no seu dispositivo, que funciona como uma "ficha numerada": permite associar suas avaliações entre si sem revelar quem você é. Esse identificador não é vinculado à sua identidade civil, salvo se você mesmo informar telefone ou e-mail no perfil.</p>
+
+<h3 id="dados-coletados">11. Quais dados coletamos</h3>
+
+<p><strong>a) Dados de perfil</strong> — informados por você ao preencher o perfil, variando conforme o tipo de usuário:</p>
+<table>
+  <tr><th>Perfil</th><th>Dados coletados</th></tr>
+  <tr><td>Produtor</td><td>Nome da fazenda, município e estado, área em hectares, culturas, marca da semeadora, marca do dosador de fertilizante, <strong>telefone e e-mail</strong></td></tr>
+  <tr><td>Profissional</td><td>Empresa, município e estado, número de clientes, culturas, <strong>telefone e e-mail</strong></td></tr>
+  <tr><td>Estudante</td><td>Instituição de ensino, curso e ano (não coletamos telefone nem e-mail de estudantes)</td></tr>
+</table>
+
+<p><strong>b) Dados das avaliações</strong> — inseridos por você a cada avaliação: nome do talhão, cultura, marca e modelo da máquina, dosador utilizado, variedade, observações, medições realizadas e os resultados calculados (CV%, falhas, duplas, aceitáveis, dose de fertilizante).</p>
+
+<p><strong>c) Localização (GPS)</strong> — coletada <strong>apenas nas avaliações de plantabilidade</strong>, <strong>somente com a sua permissão</strong>, para registrar o ponto onde a avaliação foi feita (latitude, longitude e precisão). Se você negar a permissão ou o sinal estiver indisponível, a avaliação é salva normalmente, sem localização. Avaliações de fertilizante não coletam localização.</p>
+
+<p><strong>d) Dados técnicos</strong> — versão do aplicativo, para fins de compatibilidade e suporte.</p>
+
+<h3>12. Dados que ficam apenas no seu dispositivo</h3>
+<p>O identificador anônimo, o perfil, as avaliações (inclusive após sincronização) e arquivos CSV exportados por você ficam armazenados localmente no seu aparelho. A exportação e o compartilhamento de arquivos CSV são ações iniciadas por você, por meio dos aplicativos de compartilhamento do seu próprio dispositivo.</p>
+
+<h3>13. Finalidades e bases legais</h3>
+<ul>
+  <li><strong>Prestar o serviço</strong> — calcular, salvar e sincronizar suas avaliações (execução do serviço solicitado, art. 7º, V, e consentimento, art. 7º, I, da LGPD);</li>
+  <li><strong>Gerar estatísticas agregadas</strong> sobre plantabilidade e distribuição de fertilizante, para melhoria do Aplicativo e produção de conhecimento agronômico (legítimo interesse, art. 7º, IX, sempre com dados agregados ou anonimizados);</li>
+  <li><strong>Contato</strong> — quando você informa telefone ou e-mail, poderemos usá-los para comunicações relacionadas ao Aplicativo (consentimento, art. 7º, I).</li>
+</ul>
+
+<h3>14. Compartilhamento de dados</h3>
+<p><strong>Não vendemos seus dados pessoais.</strong> O Aplicativo <strong>não utiliza serviços de analytics, rastreamento, publicidade ou monitoramento de falhas de terceiros</strong> — a única transmissão de dados ocorre entre o seu dispositivo e os nossos próprios servidores, por conexão criptografada (HTTPS). Podemos compartilhar <em>estatísticas agregadas e anonimizadas</em> (que não identificam nenhum usuário) com parceiros e patrocinadores. Dados pessoais só serão compartilhados mediante obrigação legal ou ordem de autoridade competente.</p>
+
+<h3>15. Segurança e retenção</h3>
+<p>Adotamos medidas técnicas de proteção, incluindo criptografia em trânsito (HTTPS), controle de acesso aos servidores e limitação de requisições. Os dados são mantidos enquanto forem necessários às finalidades descritas ou até que você solicite sua eliminação, ressalvadas hipóteses legais de guarda.</p>
+
+<h3 id="direitos">16. Seus direitos como titular de dados</h3>
+<p>Nos termos do art. 18 da LGPD, você pode solicitar a qualquer momento: confirmação da existência de tratamento; acesso aos seus dados; correção de dados incompletos ou desatualizados; anonimização, bloqueio ou <strong>eliminação</strong> dos seus dados; portabilidade; e revogação do consentimento.</p>
+<p>Para exercer esses direitos, envie um e-mail para <a href="mailto:contato.gpdacademy@gmail.com">contato.gpdacademy@gmail.com</a> informando, se possível, o telefone ou e-mail cadastrado no perfil (ou, no caso de estudantes, dados que ajudem a localizar suas avaliações, como instituição, talhões e datas). Responderemos no menor prazo possível. Você também pode apresentar reclamação à Autoridade Nacional de Proteção de Dados (ANPD).</p>
+
+<h3>17. Crianças e adolescentes</h3>
+<p>O Aplicativo destina-se a atividades profissionais e acadêmicas do setor agrícola e não é direcionado a menores de 18 anos. Não coletamos intencionalmente dados de crianças e adolescentes.</p>
+
+<h3>18. Alterações desta Política</h3>
+<p>Esta Política pode ser atualizada para refletir mudanças no Aplicativo ou na legislação. A versão vigente estará sempre disponível nesta página, com a data de atualização indicada no topo.</p>
+
+<h3 id="contato">19. Contato</h3>
+<p>Dúvidas sobre estes Termos ou sobre o tratamento dos seus dados podem ser enviadas para <a href="mailto:contato.gpdacademy@gmail.com">contato.gpdacademy@gmail.com</a>.</p>
+
+<footer>
+  <p>GPD Plantabilidade — uma realização do Grupo de Plantio Direto e da SauerTech Inovação e Sistemas Ltda. (CNPJ 62.861.103/0001-01). Documento válido a partir da data de atualização indicada no topo.</p>
+</footer>
+
+</div>
+</body>
+</html>
